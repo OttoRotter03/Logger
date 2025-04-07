@@ -1,7 +1,6 @@
 {
   "name": "logger",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^22.14.0",
