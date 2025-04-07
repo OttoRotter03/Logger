@@ -81,7 +81,7 @@ export const config = {
 log.info({
 	type: 'http',
 	request: {
-		id: '3f5d2b1c-87a9-42a4-b42e-34e650ec1d73', // does not need to be set in the log, will be dynamically added by Logger class
+		id: '3f5d2b1c-87a9-42a4-b42e-34e650ec1d73', 
 		path: '/api/users',
 		method: 'GET',
 		useragent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 13_0)',
@@ -94,7 +94,7 @@ log.info({
 
 ```ts
 log.info({
-	requestId: '3f5d2b1c-87a9-42a4-b42e-34e650ec1d73',
+	requestId: '3f5d2b1c-87a9-42a4-b42e-34e650ec1d73', // does not need to be set in the log, will be dynamically added by Logger class
 	action: 'getUsers',
 	type: 'db',
 	duration: 200,
